@@ -22,12 +22,14 @@ All the templates have a `Makefile` that allows to execute the template with thr
 * `make dev`:  run in dev mode
 * `make run`: run the project with `live-server`
 
-### Frontend plain frameworks
-In this folder, are present frameworks that does not contain external dependencies, just plain javascript and html.
+### Framework frontend
+These are configuration that requires an installation with external dependencies, such as `angular`, `quasar`, `vuejs` ecc.
+
+### Frontend vanilla 
+In this folder, are present frameworks that does not contain external dependencies, just vanilla javascript and html.
 For example: 
 * bootstrap
 * react
 
 
 External `js` and `css` can be taken from `cdn` or installed locally.
-
