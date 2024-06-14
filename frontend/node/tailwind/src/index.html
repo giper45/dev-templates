@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+
+
+    <h1> flex flex-row</h1>
+    Flex-row position flex items horizontally. Flex col vertically
+    <div class="flex flex-row">
+        <div class="basis-1/3"> basis-1/3</div>
+        <div class="basis-2/3"> basis-2/3</div>
+    </div>
+
+    <h1> flex flex-col</h1>
+    Align vertically
+    <div class="flex flex-col">
+        <div>First</div>
+        <div>Second</div>
+    </div>
+
+
+    Flex and grid use two properties to align:
+    <ul>
+        <li> justify content (for rows)</li>
+        <li> justify items</li>
+    </ul>
+
+    <div class="flex flex-row">
+        <div class="basis-1/3"> content center basis-1/3</div>
+        <div class="basis-2/3"> basis-2/3</div>
+        <div class="basis-1/3"> content center basis-1/3</div>
+        <div class="basis-2/3"> basis-2/3</div>
+    </div>
+
+    Change full
+    <div class="flex flex-nowrap">
+        <div class="basis-full">01</div>
+        <div class="basis">02</div>
+    </div>
+
+    Justify Content how component are positioned along a container's main axis.
+
+    <h1> Grow</h1>
+    <div class="flex flex-row">
+        <div class="flex-none w-14"> 01</div>
+        <div class="grow"> 02</div>
+        <div class="flex-none w-14"> 03</div>
+    </div>
+
+
+    <div class="flex ...">
+        <div class="grow ">
+            01
+        </div>
+        <div class="h-14 w-20">
+            02
+        </div>
+        <div class="grow h-14 ...">
+            03
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

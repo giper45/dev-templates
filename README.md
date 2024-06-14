@@ -21,3 +21,13 @@ All the templates have a `Makefile` that allows to execute the template with thr
 * `make install`: install the project dependencies.
 * `make dev`:  run in dev mode
 * `make run`: run the project with `live-server`
+
+### Frontend plain frameworks
+In this folder, are present frameworks that does not contain external dependencies, just plain javascript and html.
+For example: 
+* bootstrap
+* react
+
+
+External `js` and `css` can be taken from `cdn` or installed locally.
+
