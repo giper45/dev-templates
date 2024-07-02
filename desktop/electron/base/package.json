@@ -1,0 +1,10 @@
+{
+  "name": "electron-sample-app",
+  "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^31.1.0"
+  }
+}
